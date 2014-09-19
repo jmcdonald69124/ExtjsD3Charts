@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e2c5e54-20bb-450d-aa17-2f65e52b2fe9" name="Default" comment="" />
+    <list default="true" id="8e2c5e54-20bb-450d-aa17-2f65e52b2fe9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="ExtjsD3Charts.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,19 +25,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.json">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="4470">
+            <state line="7" column="0" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.12867647" vertical-offset="0" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="4470">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="13" selection-start="1020" selection-end="1262" vertical-scroll-proportion="0.72190034" vertical-offset="37" max-vertical-offset="900">
+            <state line="44" column="13" selection-start="1020" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -44,7 +55,7 @@
       <file leaf-file-name="donutdata.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/testdata/donutdata.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="585">
+            <state line="8" column="7" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -53,7 +64,7 @@
       <file leaf-file-name="nv.d3.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/nv.d3.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="30" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11610">
+            <state line="44" column="30" selection-start="845" selection-end="845" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="11610">
               <folding />
             </state>
           </provider>
@@ -62,7 +73,7 @@
       <file leaf-file-name="D3DonutPanel.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/widget/D3DonutPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="42" selection-start="1073" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3195">
+            <state line="19" column="42" selection-start="1073" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="3195">
               <folding />
             </state>
           </provider>
@@ -71,7 +82,7 @@
       <file leaf-file-name="D3HorizontalBarChart.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/widget/D3HorizontalBarChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="28" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="2475">
+            <state line="22" column="28" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2475">
               <folding />
             </state>
           </provider>
@@ -97,13 +108,13 @@
       <list>
         <option value="$PROJECT_DIR$/widget/D3HorizontalBarChart.js" />
         <option value="$PROJECT_DIR$/widget/D3DonutPanel.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/resources/css/nv.d3.css" />
         <option value="$PROJECT_DIR$/resources/js/nv.d3.min.js" />
         <option value="$PROJECT_DIR$/resources/js/d3.min.js" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/app/view/main/Main.js" />
         <option value="$PROJECT_DIR$/resources/testdata/donutdata.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -139,6 +150,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,15 +221,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="preferences.externalResources" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -243,6 +254,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -251,14 +270,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -319,6 +330,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/widget/D3DonutPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="42" selection-start="1073" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="3195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/D3HorizontalBarChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="6" selection-start="2041" selection-end="2233" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="1005">
@@ -356,16 +381,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/nv.d3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="188326" selection-end="188326" vertical-scroll-proportion="0.10428737" vertical-offset="0" max-vertical-offset="863">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="188326" selection-end="188326" vertical-scroll-proportion="0.10428737" vertical-offset="0" max-vertical-offset="863" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/d3.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18365" selection-start="146734" selection-end="146734" vertical-scroll-proportion="0.069524914" vertical-offset="0" max-vertical-offset="863">
-          <folding />
-        </state>
+        <state line="4" column="18365" selection-start="146734" selection-end="146734" vertical-scroll-proportion="0.069524914" vertical-offset="0" max-vertical-offset="863" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/D3DonutPanel.js">
@@ -391,28 +412,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/testdata/donutdata.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="6" selection-start="2041" selection-end="2233" vertical-scroll-proportion="0.67156863" vertical-offset="142" max-vertical-offset="1005">
+        <state line="8" column="7" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="4470">
+        <state line="18" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="4470">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/view/main/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="13" selection-start="1020" selection-end="1262" vertical-scroll-proportion="0.72190034" vertical-offset="37" max-vertical-offset="900">
+        <state line="44" column="13" selection-start="1020" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.12867647" vertical-offset="0" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
