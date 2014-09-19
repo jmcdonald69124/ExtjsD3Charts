@@ -49,11 +49,14 @@ If you are into data visualization and developing in JavaScript then you have pr
 
 <h3>Create a widget folder at the same level as the app folder. </h3>
 
+<h4>D3Donutpanel</h4>
 
-
-
-
-
-
-
-
+<strong>Config options</strong>
+<ul>
+    <li>dataUrl		: (string) - url of json data for the chart, json should be in the following format, label and value are required, any attached data points will get passed to the click event i.e. primary keys etc ..
+        <pre>{'results': 1, 'data':[{'some_value': 'not required', 'label': 'Required', 'value': 17}]}</pre></li>
+    <li>chartTitle	: (string) - chart title displayed above the chart</li>
+    <li>tooltipAppend	: (string) - text to append to the tooltip value</li>
+    <li>showTotal	: (boolean) - show total in the center of the chart</li>
+    <li>totalType	: ‘sum’ or ‘avg’ calculate the total values as the sum of all values that are shown or the average of all shown values.</li>
+</ul>
