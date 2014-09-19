@@ -51,6 +51,8 @@ If you are into data visualization and developing in JavaScript then you have pr
 
 <h4>D3Donutpanel</h4>
 
+<img src="http://www.learnsomethings.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-18-at-9.50.35-PM.png" />
+
 <strong>Config options</strong>
 <ul>
     <li>dataUrl		: (string) - url of json data for the chart, json should be in the following format, label and value are required, any attached data points will get passed to the click event i.e. primary keys etc ..
