@@ -8,10 +8,10 @@ Ext.define('widget.D3Donutpanel', {
 
     extend          : 'Ext.panel.Panel',
     dataUrl         : '',                       // url of json data for the chart, json should be in the
-                                                // following format, label and value are required, any attached
-                                                // data points will get passed to the click event i.e. primary keys etc .. :
+    // following format, label and value are required, any attached
+    // data points will get passed to the click event i.e. primary keys etc .. :
 
-                                                //{'results': 1, 'data':[{'some_value': 'not required', 'label': 'Required', 'value': 17}]}
+    //{'results': 1, 'data':[{'some_value': 'not required', 'label': 'Required', 'value': 17}]}
 
     localData       : '',                       // placeholder so that data can be stored for faster resize
     layout          : 'fit',
@@ -20,6 +20,7 @@ Ext.define('widget.D3Donutpanel', {
     alias           : 'widget.D3Donutpanel',
     showTotal       : false,                    // show total in the center of the chart
     totalType       : 'sum',                    // sum or avg
+    chartLoadMask   : true,
     showChartlabels : true,
     initComponent : function(){
 
@@ -44,23 +45,38 @@ Ext.define('widget.D3Donutpanel', {
     },
 
     /*
-       reload the json from the server and refresh the chart
-    */
+     reload the json from the server and refresh the chart
+     */
     reloadData: function(params){
         var me = this;
+        var qryParams = Ext.Object.toQueryString(params),
+            url       = me.dataUrl + '&' + qryParams,
+            myMask = new Ext.LoadMask({
+                msg    : 'Loading ...',
+                target : this
+            });
+        if(me.chartLoadMask === true){
+            myMask.show();
+        }
 
-        d3.text(me.dataUrl,'text/plain', function(error) {
-            if (error) return console.warn(error);
+
+        d3.text(url,'text/plain', function(error) {
+            if (error)
+                myMask.hide();
+            return console.warn(error);
         }).on("load", function(data) {
                 var decodedData = Ext.JSON.decode(data);
                 me.localData = decodedData.data;
                 me.drawChart(me,me.getSize().width,me.getSize().height);
+                if(me.chartLoadMask === true){
+                    myMask.hide();
+                }
             });
     },
 
     /*
-        Data includes the full JSON record that is passed
-        to the chart slice, not just the key value pair.
+     Data includes the full JSON record that is passed
+     to the chart slice, not just the key value pair.
      */
     onChartClick: function(record){
         console.log(record);
@@ -75,13 +91,7 @@ Ext.define('widget.D3Donutpanel', {
                  is used with extjs does not trip up teh json decode that
                  D3.js does.
                  */
-                d3.text(me.dataUrl,'text/plain', function(error) {
-                    if (error) return console.warn(error);
-                }).on("load", function(data) {
-                        var decodedData = Ext.JSON.decode(data);
-                        me.localData = decodedData.data;
-                        setupChart(me.localData);
-                    });
+                me.reloadData();
             } else {
                 setupChart(me.localData);
             }
@@ -136,10 +146,10 @@ Ext.define('widget.D3Donutpanel', {
 
             var selector = "#" + me.getId().toString() + " donutchart svg";
 
-                d3.select(selector).remove();
-                selector = "#" + me.getId().toString() + " donutchart";
+            d3.select(selector).remove();
+            selector = "#" + me.getId().toString() + " donutchart";
 
-                d3.select(selector).append("svg")
+            d3.select(selector).append("svg")
                 .attr("width", width)
                 .attr("height", height - 35);
 
@@ -198,11 +208,13 @@ Ext.define('widget.D3Donutpanel', {
                     .attr("class", me.getId().toString() + "-total-text")
                     .style("font-weight", "bold")
                     .attr("transform", function() {
-                            return "translate(0," + (28/3) + ")";
+                        return "translate(0," + (28/3) + ")";
                     });
 
                 calculateCenterValue();
             }
         }
+
+        return true;
     }
 });
