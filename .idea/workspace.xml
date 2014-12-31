@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e2c5e54-20bb-450d-aa17-2f65e52b2fe9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/widget/D3DonutPanel.js" afterPath="$PROJECT_DIR$/widget/D3DonutPanel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/widget/D3USMap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ExtjsD3Charts.iws" />
@@ -71,10 +71,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="D3DonutPanel.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="D3DonutPanel.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/widget/D3DonutPanel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="98" selection-end="98" vertical-scroll-proportion="0.06147541" vertical-offset="0" max-vertical-offset="3375">
+            <state line="216" column="0" selection-start="0" selection-end="7541" vertical-scroll-proportion="0.0" vertical-offset="2583" max-vertical-offset="3375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="D3USMap.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/widget/D3USMap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="20" selection-start="112" selection-end="119" vertical-scroll-proportion="0.08196721" vertical-offset="0" max-vertical-offset="3375">
               <folding />
             </state>
           </provider>
@@ -116,12 +125,13 @@
         <option value="$PROJECT_DIR$/resources/testdata/donutdata.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/widget/D3DonutPanel.js" />
+        <option value="$PROJECT_DIR$/widget/D3USMap.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
-    <option name="y" value="22" />
+    <option name="x" value="150" />
+    <option name="y" value="55" />
     <option name="width" value="1534" />
     <option name="height" value="855" />
   </component>
@@ -261,7 +271,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="22" width="1534" height="855" extended-state="0" />
+    <frame x="150" y="55" width="1534" height="855" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -296,13 +306,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/widget/D3DonutPanel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="1073" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="3195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/widget/D3HorizontalBarChart.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="28" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="2475">
@@ -397,7 +400,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/widget/D3DonutPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="98" selection-end="98" vertical-scroll-proportion="0.06147541" vertical-offset="0" max-vertical-offset="3375">
+        <state line="216" column="0" selection-start="0" selection-end="7541" vertical-scroll-proportion="0.0" vertical-offset="2583" max-vertical-offset="3375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/widget/D3USMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="112" selection-end="119" vertical-scroll-proportion="0.08196721" vertical-offset="0" max-vertical-offset="3375">
           <folding />
         </state>
       </provider>
